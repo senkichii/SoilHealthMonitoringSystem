@@ -8,8 +8,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #125c43;
+  background-color: #e8ebea;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
 }
 
 .mobile-screen-center {
@@ -197,7 +198,7 @@ body {
 .view-toggle-nav {
   position: fixed;
   bottom: 20px;
-  left: 50%;
+  left: 70%;
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
@@ -231,6 +232,7 @@ body {
   flex-direction: column !important;
   margin: 0 !important;
   padding: 0 !important;
+  color: black;
 }
 
 .admin-nav {
@@ -238,19 +240,19 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  background: white;
-  border-bottom: 1px solid #e2e8f0;
+  background: var(--farm-green);
+  border-bottom: 1px solid #e2f0ec;
 }
 
 .admin-logo-section { display: flex; gap: 15px; align-items: center; }
-.brand-icon { background: #e6fffa; padding: 8px; border-radius: 8px; font-size: 1.5rem; }
+.brand-icon { background: #069e4a; padding: 8px; border-radius: 8px; font-size: 1.5rem; }
 
 .admin-profile { display: flex; align-items: center; gap: 12px; }
 .user-text { text-align: right; }
 .user-name { display: block; font-weight: bold; font-size: 0.9rem; }
-.user-role { font-size: 0.75rem; color: #718096; }
+.user-role { font-size: 0.75rem; color: #ffffff; }
 .avatar { 
-  background: #00c853; color: white; width: 40px; height: 40px; 
+  background: #00c853; color: rgb(255, 255, 255); width: 40px; height: 40px; 
   border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; 
 }
 
@@ -282,11 +284,11 @@ body {
 .stat-icon.red { background: #fff5f5; color: #e53e3e; }
 
 .admin-tabs { display: flex; gap: 10px; margin-bottom: 25px; }
-.tab { padding: 8px 20px; border-radius: 20px; border: 1px solid #e2e8f0; background: white; cursor: pointer; color: black }
+.tab { padding: 8px 20px; border-radius: 20px; border: 1px solid #e2e8f0; background: white; cursor: pointer; color: black; }
 .tab.active { background: #f7fafc; font-weight: bold; }
 
 .management-card {
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 20px;
   padding: 30px;
   border: 1px solid #edf2f7;
@@ -332,7 +334,7 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-.btn-export { background: black; border: 1px solid #e2e8f0; }
+.btn-export { background: white; border: 1px solid #e2e8f0; color: black; }
 .btn-add { background: #1a202c; color: white; border: none; }
 
 .audit-list { display: flex; flex-direction: column; gap: 15px; margin-top: 10px; }
@@ -348,7 +350,7 @@ body {
 .audit-icon-box { width: 45px; height: 45px; background: white; border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
 
 .admin-footer {
-  background: white;
+  background: var(--farm-green);
   padding: 20px 40px;
   border-top: 1px solid #edf2f7;
   flex-shrink: 0;
@@ -358,7 +360,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #718096;
+  color: black;
   font-size: 0.85rem;
 }
 
