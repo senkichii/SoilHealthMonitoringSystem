@@ -197,7 +197,7 @@ body {
 .view-toggle-nav {
   position: fixed;
   bottom: 20px;
-  left: 70%;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
@@ -224,7 +224,7 @@ body {
 }
 
 .admin-wrapper {
-  background-color: #f8fafb !important;
+  background-color: #f8fbf9 !important;
   min-height: 100vh;
   width: 100vw !important;
   display: flex !important;
